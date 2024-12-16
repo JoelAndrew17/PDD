@@ -1,0 +1,136 @@
+/* Sidebar Container */
+.custom-sidebar-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 20px;
+    gap: 20px; /* Space between the sidebar and content */
+}
+
+/* Sidebar */
+.custom-sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.custom-sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-sidebar-menu li {
+    margin: 15px 0;
+}
+
+.custom-sidebar-menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.custom-sidebar-menu li a:hover {
+    background-color: #2C2D3F;
+    color: white;
+}
+
+/* Content Area */
+#content-area {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Content Section */
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.content-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.content-section p, 
+.content-section label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #555;
+    line-height: 1.6;
+}
+
+.content-section form input[type="text"], 
+.content-section form input[type="email"], 
+.content-section form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.content-section form button {
+    padding: 10px 15px;
+    background-color: #2C2D3F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-section form button:hover {
+    background-color: #444;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #2C2D3F;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+ul li a:hover {
+    color: #007BFF;
+}
+#show-reports ul {
+    padding: 0;
+    list-style: none;
+}
+
+#show-reports ul li {
+    margin: 15px 0; /* Add space between reports */
+}
+
+#show-reports ul li a {
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make font bold */
+    color: #2C2D3F;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#show-reports ul li a:hover {
+    color: #007BFF; /* Change color on hover */
+}
