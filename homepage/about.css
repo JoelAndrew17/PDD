@@ -1,0 +1,39 @@
+.super-dramatic-about {
+    padding: 50px;
+    background: linear-gradient(135deg, #e3f2fd, #fff);
+    border-left: 6px solid #007bff;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 70%;
+    max-width: 1200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.super-dramatic-title {
+    font-size: 32px;
+    color: #007bff;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.super-dramatic-text {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.9;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.super-dramatic-text:last-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    font-style: normal;
+    margin-top: 30px;
+}

@@ -1,0 +1,109 @@
+.doctor-card {
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-img {
+    width: 120px; /* Increase width */
+    height: 120px; /* Increase height */
+    object-fit: cover; /* Ensure proper aspect ratio */
+    border: 5px solid #007bff; /* Adjust border size for emphasis */
+    border-radius: 50%; /* Keep the circular shape */
+}
+
+.doctor-card h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.doctor-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.doctor-card .btn {
+    margin-top: 10px;
+}
+/* Custom Styles for Doctor Cards */
+.doctor-cards-container {
+    margin: 10px; /* Keep the container margin */
+}
+
+.doctor-card {
+    display: inline-block; /* Use inline-block for cards to sit side by side */
+    width: 270px; /* Reduced the card width */
+    margin: 10px 5px; /* Reduced margin to bring the cards closer */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    vertical-align: top; /* Ensures cards align at the top */
+}
+
+.doctor-card-header {
+    background-color: #f4f4f4;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Profile Image */
+.doctor-profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Doctor Name and Degree */
+.doctor-name-degree {
+    margin-top: 10px;
+}
+
+.doctor-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.doctor-degree {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.doctor-card-body {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.doctor-card-body p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.doctor-card-body strong {
+    color: #333;
+}
+.book-appointment-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff; /* Blue color for the button */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.book-appointment-btn:hover {
+    background-color: #0056b3;
+}
+
