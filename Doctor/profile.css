@@ -1,0 +1,37 @@
+/* Container for the edit profile button */
+.edit-profile-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the button to the right */
+    align-items: center;
+}
+
+/* Button styling */
+.edit-profile-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between the photo and text */
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    border: 1px solid transparent;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
+}
+
+/* Hover effects for button */
+.edit-profile-btn:hover {
+    background-color: #0056b3; /* Button hover background */
+    border-color: #004080;
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+/* Profile photo styling */
+.edit-profile-photo {
+    width: 3px; /* Adjusted to make it smaller */
+    height: 3px; /* Adjusted to make it smaller */
+    border-radius: 50%; /* Makes the image round */
+    border: 2px solid #fff; /* Optional border around the photo */
+}

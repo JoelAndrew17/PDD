@@ -1,0 +1,368 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Site keywords here">
+		<meta name="description" content="">
+		<meta name='copyright' content=''>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Title -->
+        <title>WellConnect</title>
+		
+		<!-- Favicon -->
+        <link rel="icon" href="img/favicon.png">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Nice Select CSS -->
+		<link rel="stylesheet" href="css/nice-select.css">
+		<!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- icofont CSS -->
+        <link rel="stylesheet" href="css/icofont.css">
+		<!-- Slicknav -->
+		<link rel="stylesheet" href="css/slicknav.min.css">
+		<!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="css/owl-carousel.css">
+		<!-- Datepicker CSS -->
+		<link rel="stylesheet" href="css/datepicker.css">
+		<!-- Animate CSS -->
+        <link rel="stylesheet" href="css/animate.min.css">
+		<!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		
+		<!-- Medipro CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+		
+		<!--dashboard content css-->
+		<!-- <link rel="stylesheet" href="../css/dashboard.css"> -->
+<link rel="stylesheet" href="./css/dashboard.css">
+		<!-- FullCalendar CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css">
+
+    </head>
+    <body>
+	
+		<!-- Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="loader-outter"></div>
+                <div class="loader-inner"></div>
+
+                <div class="indicator"> 
+                    <svg width="16px" height="12px">
+                        <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                        <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+		<!-- Header Area -->
+		<header class="header" >
+			<!-- Topbar -->
+			<div class="topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-5 col-12">
+							<!-- Contact -->
+							<ul class="top-link">
+								<li><a href="about.html">About</a></li>
+								<li><a href="faq.html">FAQ</a></li>
+							</ul>
+							<!-- End Contact -->
+						</div>
+						<div class="col-lg-6 col-md-7 col-12">
+							<!-- Top Contact -->
+							<ul class="top-contact">
+								<li><i class="fa fa-phone"></i>+99 1234 56789</li>
+								<li><i class="fa fa-envelope"></i><a href="mailto:Mudiyela@gmail.com">Mudiyela@gmail.com</a></li>
+							</ul>
+							<!-- End Top Contact -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Topbar -->
+			<!-- Header Inner -->
+			<div class="header-inner">
+				<div class="container">
+					<div class="inner">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-12">
+								<!-- Start Logo -->
+								<div class="logo">
+									<a href="index.html"><img src="img/logo.png" alt="#"></a>
+								</div>
+								<!-- End Logo -->
+								<!-- Mobile Nav -->
+								<div class="mobile-nav"></div>
+								<!-- End Mobile Nav -->
+							</div>
+							<div class="col-lg-7 col-md-9 col-12">
+								<!-- Main Menu -->
+								<div class="main-menu">
+									<nav class="navigation">
+										<ul class="nav menu">
+											<li class="active"><a href="dashboard.html">Home</a>
+											</li>
+											<li><a href="appointments.html">Appointments</a></li>
+											<li><a href="#">History</a>
+											</li>
+											<li><a href="reports.html">Reports</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<!--/ End Main Menu -->
+							</div>
+							<div class="col-lg-2 col-12">
+								<div class="get-quote">
+									<a href="Book-Appointment.html" class="btn">Dr Placeholder</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+		<!-- End Header Area -->
+		 <hr>
+		 <div class="doctor-dashboard">
+			<div class="container mt-4">
+				<!-- Greeting Section -->
+				<div class="greeting-section">
+					<h2 class="greeting-text">Good Morning, <span class="doctor-name">Dr. Placeholder</span></h2>
+				</div>
+		
+				<!-- Card View and Calendar -->
+<div class="row mt-4">
+    <!-- Card View -->
+    <div class="col-lg-6">
+        <div class="dashboard-card-group">
+            <div class="dashboard-card">
+                <h4>Total Patients</h4>
+                <p class="card-data" id="total-patients">120</p>
+                <p class="card-info">An increase of 10% compared to last month.</p>
+            </div>
+            <div class="dashboard-card">
+                <h4>Patients This Month</h4>
+                <p class="card-data" id="patients-this-month">25</p>
+                <p class="card-info">Appointments are filling up fast!</p>
+            </div>
+        </div>
+        <div class="additional-info mt-3">
+            <h5>Quick Stats</h5>
+            <ul>
+                <li>Average Daily Patients: 8</li>
+                <li>Critical Cases This Month: 3</li>
+                <li>Most Booked Day: Tuesday</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Calendar -->
+    <div class="col-lg-6">
+        <div class="dashboard-calendar">
+            <h4>Upcoming Events & Appointments</h4>
+            <div id="calendar"></div>
+        </div>
+    </div>
+</div>	
+				<!-- Patient List -->
+<div class="row mt-4">
+    <div class="col-lg-6">
+        <div class="patient-list">
+            <h4>Patient List</h4>
+            <div class="scrollable-container">
+                <ul class="patient-items">
+                    <!-- Patient Data -->
+                    <li onclick="showPopup('John Doe', '10:00 AM', 'Low')">
+                        <img src="img/profile1.jpg" alt="Profile" class="patient-icon">
+                        <span class="patient-name">John Doe</span>
+                        <small class="visit-type">Routine Checkup</small>
+                        <span class="visit-time">10:00 AM</span>
+                        <span class="urgency-indicator">
+                            <span class="urgency-circle low"></span>
+                        </span>
+                    </li>
+                    <li onclick="showPopup('Jane Smith', '11:30 AM', 'Medium')">
+                        <img src="img/profile2.jpg" alt="Profile" class="patient-icon">
+                        <span class="patient-name">Jane Smith</span>
+                        <small class="visit-type">Monthly Visit</small>
+                        <span class="visit-time">11:30 AM</span>
+                        <span class="urgency-indicator">
+                            <span class="urgency-circle medium"></span>
+                        </span>
+                    </li>
+                    <li onclick="showPopup('Mike Ross', '1:00 PM', 'Critical')">
+                        <img src="img/profile3.jpg" alt="Profile" class="patient-icon">
+                        <span class="patient-name">Mike Ross</span>
+                        <small class="visit-type">First-Time Visit</small>
+                        <span class="visit-time">1:00 PM</span>
+                        <span class="urgency-indicator">
+                            <span class="urgency-circle critical"></span>
+                        </span>
+                    </li>
+                    <li onclick="showPopup('Rachel Green', '2:30 PM', 'Low')">
+                        <img src="img/profile4.jpg" alt="Profile" class="patient-icon">
+                        <span class="patient-name">Rachel Green</span>
+                        <small class="visit-type">Routine Checkup</small>
+                        <span class="visit-time">2:30 PM</span>
+                        <span class="urgency-indicator">
+                            <span class="urgency-circle low"></span>
+                        </span>
+                    </li>
+                    <li onclick="showPopup('Monica Geller', '3:15 PM', 'Medium')">
+                        <img src="img/profile5.jpg" alt="Profile" class="patient-icon">
+                        <span class="patient-name">Monica Geller</span>
+                        <small class="visit-type">Weekly Visit</small>
+                        <span class="visit-time">3:15 PM</span>
+                        <span class="urgency-indicator">
+                            <span class="urgency-circle medium"></span>
+                        </span>
+                    </li>
+                    <li onclick="showPopup('Chandler Bing', '4:00 PM', 'Critical')">
+                        <img src="img/profile6.jpg" alt="Profile" class="patient-icon">
+                        <span class="patient-name">Chandler Bing</span>
+                        <small class="visit-type">Monthly Visit</small>
+                        <span class="visit-time">4:00 PM</span>
+                        <span class="urgency-indicator">
+                            <span class="urgency-circle critical"></span>
+                        </span>
+                    </li>
+                    <!-- Additional Patients -->
+                    <li onclick="showPopup('Phoebe Buffay', '4:45 PM', 'Low')">
+                        <img src="img/profile7.jpg" alt="Profile" class="patient-icon">
+                        <span class="patient-name">Phoebe Buffay</span>
+                        <small class="visit-type">First-Time Visit</small>
+                        <span class="visit-time">4:45 PM</span>
+                        <span class="urgency-indicator">
+                            <span class="urgency-circle low"></span>
+                        </span>
+                    </li>
+                    <li onclick="showPopup('Ross Geller', '5:15 PM', 'Medium')">
+                        <img src="img/profile8.jpg" alt="Profile" class="patient-icon">
+                        <span class="patient-name">Ross Geller</span>
+                        <small class="visit-type">Weekly Visit</small>
+                        <span class="visit-time">5:15 PM</span>
+                        <span class="urgency-indicator">
+                            <span class="urgency-circle medium"></span>
+                        </span>
+                    </li>
+					<li onclick="showPopup('Ross Geller', '5:15 PM', 'Medium')">
+                        <img src="img/profile8.jpg" alt="Profile" class="patient-icon">
+                        <span class="patient-name">Ross Geller</span>
+                        <small class="visit-type">Weekly Visit</small>
+                        <span class="visit-time">5:15 PM</span>
+                        <span class="urgency-indicator">
+                            <span class="urgency-circle medium"></span>
+                        </span>
+                    </li>
+					<li onclick="showPopup('Ross Geller', '5:15 PM', 'Medium')">
+                        <img src="img/profile8.jpg" alt="Profile" class="patient-icon">
+                        <span class="patient-name">Ross Geller</span>
+                        <small class="visit-type">Weekly Visit</small>
+                        <span class="visit-time">5:15 PM</span>
+                        <span class="urgency-indicator">
+                            <span class="urgency-circle medium"></span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+					<!-- Blog Article -->
+					<div class="col-lg-6">
+						<div class="dashboard-blog">
+							<h4>Latest Blog</h4>
+							<a href="blog.html">
+								<img src="img/sampleblog.jpg" alt="Blog Thumbnail" class="blog-thumbnail">
+							</a>
+							<p class="blog-content">
+								"How to Handle Seasonal Allergies" - A brief article on tips for managing seasonal health issues.
+							</p>
+						</div>
+					</div>
+				</div>
+		
+				<!-- Popup for Patient Details -->
+				<div id="patient-popup" class="patient-popup">
+					<div class="popup-content">
+						<span class="close-btn" onclick="closePopup()">×</span>
+						<h4>Patient Details</h4>
+						<p id="popup-details"></p>
+					</div>
+				</div>
+			</div>
+		</div>		
+
+		<!-- jquery Min JS -->
+        <script src="js/jquery.min.js"></script>
+		<!-- jquery Migrate JS -->
+		<script src="js/jquery-migrate-3.0.0.js"></script>
+		<!-- jquery Ui JS -->
+		<script src="js/jquery-ui.min.js"></script>
+		<!-- Easing JS -->
+        <script src="js/easing.js"></script>
+		<!-- Color JS -->
+		<script src="js/colors.js"></script>
+		<!-- Popper JS -->
+		<script src="js/popper.min.js"></script>
+		<!-- Bootstrap Datepicker JS -->
+		<script src="js/bootstrap-datepicker.js"></script>
+		<!-- Jquery Nav JS -->
+        <script src="js/jquery.nav.js"></script>
+		<!-- Slicknav JS -->
+		<script src="js/slicknav.min.js"></script>
+		<!-- ScrollUp JS -->
+        <script src="js/jquery.scrollUp.min.js"></script>
+		<!-- Niceselect JS -->
+		<script src="js/niceselect.js"></script>
+		<!-- Tilt Jquery JS -->
+		<script src="js/tilt.jquery.min.js"></script>
+		<!-- Owl Carousel JS -->
+        <script src="js/owl-carousel.js"></script>
+		<!-- counterup JS -->
+		<script src="js/jquery.counterup.min.js"></script>
+		<!-- Steller JS -->
+		<script src="js/steller.js"></script>
+		<!-- Wow JS -->
+		<script src="js/wow.min.js"></script>
+		<!-- Magnific Popup JS -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- Counter Up CDN JS -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
+
+		<script src="patientpopup.js"></script>
+		<!-- FullCalendar JS -->
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            events: [
+                { title: 'Checkup - John Doe', start: '2024-11-25' },
+                { title: 'Consultation - Mike Ross', start: '2024-11-26' },
+            ],
+        });
+        calendar.render();
+    });
+</script>
+
+    </body>
+</html>

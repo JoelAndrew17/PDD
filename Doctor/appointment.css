@@ -1,0 +1,187 @@
+.BGwrapper{
+    background-image: url('img/AppointBG.jpg'); /* Replace with your image path */
+    height: 1000px;
+}
+.appointment-table {
+    margin: 20px auto;
+    max-width: 80%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: #333 solid 2px;
+}
+
+.appointment-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.appointment-row {
+    display: flex; /* Use flexbox for aligning children */
+    align-items: center; /* Vertically aligns items in the row */
+    justify-content: space-between; /* Distributes space between items */
+    padding: 10px 15px;
+    border: 1px solid #ddd; /* Optional: Add borders for clarity */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%; /* Ensure rows stretch to full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.appointment-row:hover {
+    background-color: #f8f9fa;
+}
+
+.appointment-row:last-child {
+    border-bottom: none;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center; /* Vertically align photo and name */
+    gap: 10px; /* Space between photo and name */
+}
+.profile-photo {
+    margin-right: 10px;
+}
+
+.profile-photo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.profile-name {
+    font-size: 14px;
+    line-height: 1.5; /* Adjust for better spacing */
+}
+
+.visit-type {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.time-slot {
+    font-size: 14px;
+    text-align: center;
+    min-width: 100px; /* Ensure consistent width */
+}
+
+.urgency-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.urgency-low {
+    background-color: #28a745;
+}
+
+.urgency-medium {
+    background-color: #ffc107;
+}
+
+.urgency-high {
+    background-color: #dc3545;
+}
+
+.action-buttons button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.approve-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.deny-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+/* Container to hold both cards side by side */
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the gap between the two cards */
+    margin-top: 20px;
+    padding: 0 20px; /* Add padding on the left and right to create space from screen edges */
+}
+
+/* Styling for each card */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 35%; /* Reduced width from 48% to 45% */
+    margin: 0 auto; /* Optional: centers the cards horizontally */
+    border: #333 solid 2px;
+}
+
+/* Styling for headings */
+.card h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Upcoming Patients Card: Same as before */
+.upcoming-patients-card {
+    flex: 1; /* This will take the remaining space in the container */
+}
+
+/* Consultation Card */
+.consultation-card {
+    flex: 1; /* This will take the remaining space in the container */
+}
+
+.consultation-details p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Adjust button styles for the action buttons */
+.action-buttons button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message-btn, .call-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.message-btn:hover, .call-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column; /* Stack the cards vertically on smaller screens */
+        padding: 0 10px; /* Reduce padding for smaller screens */
+    }
+
+    .card {
+        width: 90%; /* Make cards take up 90% of the width on smaller screens */
+        margin-bottom: 20px; /* Space between stacked cards */
+    }
+}
+.urgency {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+}
